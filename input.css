@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.board h3 {
+  background: darkblue;
+  padding: 30px;
+  text-align: center;
+}
+
+.board div {
+  background: blue;
+  padding: 30px;
+  text-align: center;
+}
