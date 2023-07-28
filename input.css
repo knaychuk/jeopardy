@@ -13,3 +13,28 @@
   padding: 30px;
   text-align: center;
 }
+
+.settings {
+  position: absolute;
+  bottom: 40px; 
+  left: 30px;
+}
+
+.team-name {
+  background-color: darkblue;
+  margin: 0 2px;
+  padding: 5px;
+}
+
+.add-score, .minus-score {
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.add-score {
+  background-color: green;
+}
+
+.minus-score {
+  background-color: red
+}
