@@ -567,43 +567,69 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+*, html, body {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
 .board h3 {
-  background: darkblue;
-  padding: 30px;
+  background: #0003FF;
+  color: gold;
+  font-family: "Swiss911 XCm BT";
+  padding: 19px;
   text-align: center;
 }
 
 .board div {
-  background: blue;
-  padding: 30px;
+  background: #0003FF;
+  color: gold;
+  font-family: "Swiss911 XCm BT";
+  padding: 19px;
   text-align: center;
 }
 
 .settings {
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   left: 30px;
 }
 
+.team-card {
+  background-color: #0003FF;
+  margin: 0 3px;
+}
+
 .team-name {
-  background-color: darkblue;
-  margin: 0 2px;
-  padding: 5px;
+  background-color: #0104d2;
+  font-size: 24px;
+  padding: 1px 2px;
+}
+
+.team-money {
+  color: gold;
 }
 
 .add-score, .minus-score {
-  margin: 0 5px;
-  padding: 10px;
+  font-size: 24px;
+  width: 100%;
 }
 
 .add-score {
